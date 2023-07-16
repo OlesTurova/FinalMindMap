@@ -1,0 +1,22 @@
+<div class="about">
+
+    <ul class="aboutme list-group list-group-horizontal position-absolute start-50 translate-middle">
+        <li *ngFor="let carta of aboutme" class="list-group-item aboutme-li">
+            <button [class.selected]="carta === selectedForcards" type="button" (click)="onSelect(carta)" class="aboutme-button">
+              <span class="name">{{carta.name | uppercase}}</span>
+            </button>
+
+            
+          </li>
+
+    </ul>
+
+    <div *ngIf="selectedForcards" class="info-box position-absolute top-50 start-50 translate-middle">
+        <div class="block-title about-title">{{ selectedForcards.name }}</div>
+        <div class="block-text center-text">
+            <div [innerHTML]="selectedForcards.text"></div>
+        </div>
+    </div>
+
+
+</div>

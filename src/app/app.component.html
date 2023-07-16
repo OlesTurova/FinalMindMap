@@ -1,0 +1,20 @@
+<div class="navbar">
+  <div class="container">
+      <div class="navbar-name shadowtext">MINDMAP</div>
+
+      <div class="navbar-wrap">
+          <ul class="navbar-menu">
+              <li><a routerLink="/hellothere" class="allbutton">Привет!</a></li>
+              <li><a routerLink="/whereare" class="allbutton">Что здесь происходит?</a></li>
+              <li><a routerLink="/cards" class="allbutton">Работа с картами</a></li>
+              <li><a routerLink="/me" class="allbutton">Про меня</a></li>
+          </ul>
+      </div>
+  </div>
+  
+</div>
+
+<div [@routeAnimations]="o && o.activatedRouteData 
+      && o.activatedRouteData['animation']">
+    <router-outlet #o="outlet"></router-outlet>
+</div>

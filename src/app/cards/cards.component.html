@@ -1,0 +1,27 @@
+<div class="clickable-space">
+    <p>asdsd</p>
+    ывпвап
+    <button (click)="DeleteCard()">CLICK</button>
+
+    <div [style.color]="color">
+        Ёб твою мать ебучий случай как же я устала
+    </div>
+
+    <div
+        
+        >
+            <form class="imcard" *ngFor="let oneCard of cards" 
+            #myForm="ngForm" (ngSubmit)="onSubmit(myForm)" 
+                >
+                <label for="title">Title: </label>
+                <input id="title" [(ngModel)]="oneCard.title" [ngModelOptions]="{standalone: true}">
+                <input id="text" [(ngModel)]="oneCard.text" [ngModelOptions]="{standalone: true}">
+            </form>
+
+    </div>
+
+
+
+</div>
+
+

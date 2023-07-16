@@ -1,0 +1,7 @@
+.editwindow{
+    width: 300px;
+    height: 200px;
+    background: #8db3d4;
+    position: absolute;
+    visibility: hidden;
+}

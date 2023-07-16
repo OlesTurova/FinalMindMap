@@ -1,0 +1,12 @@
+.clickable-space{
+    background: url("../../img/3.jpg");
+    background-size: cover;
+    height: 90vh;
+}
+
+.imcard{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    position: absolute
+}

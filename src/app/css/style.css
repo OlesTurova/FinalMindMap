@@ -1,0 +1,26 @@
+.allbutton{
+    padding: 5px 10px 5px 10px;
+    transition: background-color 0.2s;
+    margin-bottom: 40px;
+    border: 2px solid #078282;
+}
+
+.allbutton:hover{
+    background-color: #50978d;
+}
+
+.shadowtext{
+    text-shadow: 1px 3px 6px black;
+    box-shadow: none;
+}
+
+.block-title{
+    font-size: 65px;
+    line-height: 80px;
+}
+
+.block-text{
+    padding-top: 25px;
+    padding-bottom: 25px;
+    line-height: 1.7;
+}

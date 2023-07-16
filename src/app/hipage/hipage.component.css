@@ -1,0 +1,32 @@
+.hiback{
+    background: url("../../img/1.jpg");
+    background-size: cover;
+    height: 90vh;
+}
+
+
+.block1-left{
+    background: url("../../img/1.jpg");
+    margin-left: 12%;
+    width: 50%;
+    height: 700px;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    margin-top: 10%;  
+}
+
+.block1-right{
+    border: 2px solid #078282;
+    position: absolute;
+    right: 12%;
+    margin-top: 22%;
+    width: 30%;
+    padding: 30px 50px 10px 50px;
+}
+
+.block1-but{
+    margin-bottom: 40px;
+    display:inline-flex;
+}
+
